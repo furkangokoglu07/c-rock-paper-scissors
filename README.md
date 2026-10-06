@@ -1,13 +1,14 @@
-# C Programlama Temelleri ve Alıştırmalar
+# Rock Paper Scissors in C
 
-Bu depo, C programlama dilindeki temel algoritmaları ve pratik uygulamalarımı içermektedir.
+A console-based Rock-Paper-Scissors tournament game written in C.
 
-## İçerik
-- `en_buyuk_sayi.c`: Kullanıcıdan alınan 3 tamsayı arasından en büyüğünü koşullu ifadeler (`if/else`) kullanarak bulan program.
+## Features
+- Player vs Computer gameplay
+- Random moves generated using `<time.h>` and `<stdlib.h>`
+- ASCII art representations for Rock, Paper, and Scissors
+- First to reach 3 points wins the match
 
-## Nasıl Derlenir ve Çalıştırılır?
-GCC derleyicisi ile:
+## How to Compile & Run
 ```bash
-gcc en_buyuk_sayi.c -o en_buyuk_sayi
-./en_buyuk_sayi
-```
+gcc main.c -o game
+./game
